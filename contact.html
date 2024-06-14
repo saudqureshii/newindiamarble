@@ -1,0 +1,120 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New India  Marble</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <!-- Main Stylesheets -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Stylesheets -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather:ital,wght@1,400;1,700&family=PT+Serif:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact us -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3529.845965430026!2d74.33164697547012!3d27.783719976138915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQ3JzAxLjQiTiA3NMKwMjAnMDMuMiJF!5e0!3m2!1sen!2sin!4v1700559906365!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>301 Graceplaza Jogeswari West</h5>
+                    <p>Mumbai, Maharashtra</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 8976039878 </h5>
+                    <p>Monday To Saturday, 11AM To 6AM</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Info@hqoil@yahoo.com</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+        </div>
+
+            <div class="contact-col">
+                <form action="https://formspree.io/f/mzblqnzn"
+                method="POST">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+    
+   
+
+     <!-- Footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>We Are The Producer Of Marble From The Mines Of Rainforest Marble We Can Provide A Block Of
+            Tentative block Sizes Avaliable Are 8' x 4' And Above, <br>  Approximate Weight 20 Tons And Above Of Each Block.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <div class="sq">
+            <p class="sq1">Copyright &copy;2023 All rights reserved | This Website is Presented  by <a href="index.html">NEWINDIAMARBLE </a>and Hosted By  
+                    <a href="index.html" target="_blank">Saud Qureshi</a></p>
+
+        </div>
+     </section>
+
+    <!--JAVASCRIPT FOR TOGGLE MENU-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://kit.fontawesome.com/85de16f0d1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
